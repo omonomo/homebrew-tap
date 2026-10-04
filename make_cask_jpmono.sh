@@ -35,8 +35,10 @@ for i in ${!font_names[@]}; do
     awk '{print $1}'
   )"
 
-    cat > ./Casks/font-${font_name}${font_sufix}.rb << _EOT_
-cask "font-${font_name}${font_sufix}" do
+  lower_font_name=$(printf '%s' "${font_name}" | tr '[:upper:]' '[:lower:]')
+  lower_font_sufix=$([ -n "${font_sufix}" ] && printf -- '-%s' "${font_sufix}" | tr '[:upper:]' '[:lower:]')
+  cat > ./Casks/font-${lower_font_name}${lower_font_sufix}.rb << _EOT_
+cask "font-${lower_font_name}${lower_font_sufix}" do
   version "${version}"
   sha256 "${sha256}"
 

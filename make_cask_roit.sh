@@ -6,7 +6,7 @@
 
 user="omonomo"
 repositorys=(Cyroit Idroit Jeroit Meroit Roroit Soroit Ubroit Viroit Awroit)
-versions=(    4.0.1  2.0.1  2.0.1  2.0.1  2.0.1  2.0.1  2.0.1  2.0.1  2.0.1)
+versions=(    4.0.2  2.0.2  2.0.2  2.0.2  2.0.2  2.0.2  2.0.2  2.0.2  2.0.2)
 font_sufixs=(@ BS DG EH FX HB SP)
 font_sufixs_tm=("${font_sufixs[@]}" TM)
 font_sufixs_lg=("${font_sufixs_tm[@]/%/LG}")
@@ -70,8 +70,10 @@ for i in ${!repositorys[@]}; do
       esac
 
       echo "${font_name}${_sufix}"
-      cat > ./Casks/font-${font_name}${font_sufix}.rb << _EOT_
-cask "font-${font_name}${font_sufix}" do
+      lower_font_name=$(printf '%s' "${font_name}" | tr '[:upper:]' '[:lower:]')
+      lower_font_sufix=$([ -n "${font_sufix}" ] && printf -- '-%s' "${font_sufix}" | tr '[:upper:]' '[:lower:]')
+      cat > ./Casks/font-${lower_font_name}${lower_font_sufix}.rb << _EOT_
+cask "font-${lower_font_name}${lower_font_sufix}" do
   version "${version}"
   sha256 "${sha256}"
 

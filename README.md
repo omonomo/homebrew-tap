@@ -2,7 +2,7 @@
 
 自作の合成、改変フォントを Homebrew でインストールできるようにしました。
 
-## インストール方法
+## 基本的なインストール方法
 
 ターミナル上で
 
@@ -10,19 +10,12 @@
 brew install --cask omonomo/tap/font-フォント名
 ```
 
-または
-
-```
-brew tap omonomo/tap
-brew install --cask font-フォント名
-```
-
 でインストールできます。  
-`フォント名` はスペースを入れずに入力してください。
+`フォント名` は小文字で、スペースはハイフンに置き換えてください。
 
 (例)
 ```
-brew install --cask font-CyroitLooseBS
+brew install --cask omonomo/tap/font-cyroitloose-bs
 ```
 
 フォントは  
