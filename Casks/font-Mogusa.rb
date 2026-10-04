@@ -1,4 +1,4 @@
-cask "font-Mogusa" do
+cask "font-mogusa" do
   version "1.0.1"
   sha256 "42af16b249adeb6e86afd7dcbfd558243124e44f94254dc0c7b8738092414a38"
 

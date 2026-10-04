@@ -1,4 +1,4 @@
-cask "font-Potori" do
+cask "font-potori" do
   version "1.0.1"
   sha256 "1788fa99804d491fd50d1db286827e01722cbe90de4fc4807e7c52b54b0de6e8"
 

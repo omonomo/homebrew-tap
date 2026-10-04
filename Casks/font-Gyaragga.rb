@@ -1,4 +1,4 @@
-cask "font-Gyaragga" do
+cask "font-gyaragga" do
   version "1.0.1"
   sha256 "d3922d2adf485f4780f0ca67f2542509d07c4e62911ca8223fb53c3dd9aa96a0"
 
