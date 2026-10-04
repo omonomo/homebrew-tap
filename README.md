@@ -23,4 +23,5 @@ brew install --cask omonomo/tap/font-cyroitloose-bs
 `~/.local/share/fonts` (Linux)  
 にインストールされます。
 
-インストールできるフォントについては `Casks` ディレクトリをご確認下さい(拡張子.rbを除いたファイル名が Cask名になります)。
+インストールできるフォントについては `Casks` ディレクトリをご確認下さい  
+(拡張子.rbを除いたファイル名が Cask 名になります)。
