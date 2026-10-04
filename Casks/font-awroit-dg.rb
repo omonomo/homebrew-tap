@@ -1,8 +1,8 @@
 cask "font-awroit-dg" do
-  version "2.0.1"
-  sha256 "ff4f121fcde68fcc4f412a5d25ab95dd19032671eae67dd54b4980c1d15a57d5"
+  version "2.0.2"
+  sha256 "2b2da2fcd63de28dc6d845d12edbfcbef731f38ff08cf8e3f3a879aac4a68cae"
 
-  url "https://github.com/omonomo/Awroit/releases/download/v2.0.1/Awroit_v2.0.1.zip"
+  url "https://github.com/omonomo/Awroit/releases/download/v2.0.2/Awroit_v2.0.2.zip"
   name "Awroit DG"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Awroit"

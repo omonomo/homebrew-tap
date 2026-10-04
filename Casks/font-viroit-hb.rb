@@ -1,8 +1,8 @@
 cask "font-viroit-hb" do
-  version "2.0.1"
-  sha256 "a80cb95b72ad46689b03806aa74f832f76c0b9231bb10f0125c54863dd752b3e"
+  version "2.0.2"
+  sha256 "84ee6b75a81f8a775428d6a32a1e4ef4b90528e86a01973a880ca61601b26386"
 
-  url "https://github.com/omonomo/Viroit/releases/download/v2.0.1/Viroit_v2.0.1.zip"
+  url "https://github.com/omonomo/Viroit/releases/download/v2.0.2/Viroit_v2.0.2.zip"
   name "Viroit HB"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Viroit"

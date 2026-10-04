@@ -1,8 +1,8 @@
 cask "font-tochinoki-pop" do
-  version "1.0.1"
-  sha256 "58bb82487e3fc7de3982bd66054482fe46f3cdb2637f60d786c4fe25be1e9edd"
+  version "1.0.2"
+  sha256 "60de27e9e9677e10387f9f4f25f64a2f7f6af6ca68b2c173411cc8cda2526327"
 
-  url "https://github.com/omonomo/JPMonoFonts/releases/download/v1.0.1/TochinokiPop_v.1.0.1.zip"
+  url "https://github.com/omonomo/JPMonoFonts/releases/download/v1.0.2/TochinokiPop_v1.0.2.zip"
   name "Tochinoki Pop"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/JPMonoFonts"

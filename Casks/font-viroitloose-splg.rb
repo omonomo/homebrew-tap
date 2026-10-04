@@ -1,8 +1,8 @@
 cask "font-viroitloose-splg" do
-  version "2.0.1"
-  sha256 "616dbb3b7f751b079e956b21100f6017110273e5541c7e1088c8074d906c6181"
+  version "2.0.2"
+  sha256 "d6e695b41a978db7f68090c81aeabf071db58e943b677249831f95f9043629dd"
 
-  url "https://github.com/omonomo/Viroit/releases/download/v2.0.1/ViroitLooseLG_v2.0.1.zip"
+  url "https://github.com/omonomo/Viroit/releases/download/v2.0.2/ViroitLooseLG_v2.0.2.zip"
   name "ViroitLoose SPLG"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Viroit"

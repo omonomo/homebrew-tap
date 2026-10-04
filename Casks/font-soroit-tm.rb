@@ -1,8 +1,8 @@
 cask "font-soroit-tm" do
-  version "2.0.1"
-  sha256 "91419b0e3cc09861fa238b4bc4fd96d400082539b7c60808855acd7481af40cf"
+  version "2.0.2"
+  sha256 "619854fc84f10069dded3b48e3c2f0f8c298ec40060d837d783cadb90dbff66f"
 
-  url "https://github.com/omonomo/Soroit/releases/download/v2.0.1/Soroit_v2.0.1.zip"
+  url "https://github.com/omonomo/Soroit/releases/download/v2.0.2/Soroit_v2.0.2.zip"
   name "Soroit TM"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Soroit"

@@ -1,8 +1,8 @@
 cask "font-idroitloose-tmlg" do
-  version "2.0.1"
-  sha256 "51846bc472b712f6273ebd1a6cac80bc57703c44cf2e269966278cd3e597f762"
+  version "2.0.2"
+  sha256 "1c784d4149064004219a7691f0439beb0f862b7714d08ccc21d25ce53574e668"
 
-  url "https://github.com/omonomo/Idroit/releases/download/v2.0.1/IdroitLooseLG_v2.0.1.zip"
+  url "https://github.com/omonomo/Idroit/releases/download/v2.0.2/IdroitLooseLG_v2.0.2.zip"
   name "IdroitLoose TMLG"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Idroit"

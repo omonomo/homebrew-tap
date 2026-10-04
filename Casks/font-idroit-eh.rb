@@ -1,8 +1,8 @@
 cask "font-idroit-eh" do
-  version "2.0.1"
-  sha256 "f73f7a0197d1ecbef1ffe7d384b124f3c083df97f139adfd00c6fab7c4de0669"
+  version "2.0.2"
+  sha256 "87b983a7a8443a301c7f59c7f45654acee51b70d9356963698a405e54b1c63e9"
 
-  url "https://github.com/omonomo/Idroit/releases/download/v2.0.1/Idroit_v2.0.1.zip"
+  url "https://github.com/omonomo/Idroit/releases/download/v2.0.2/Idroit_v2.0.2.zip"
   name "Idroit EH"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Idroit"

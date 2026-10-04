@@ -1,8 +1,8 @@
 cask "font-jeroit-splg" do
-  version "2.0.1"
-  sha256 "2f49ec72690be53d5da0c9201fbb95680b72f852d0331a95e283fa9f0c09d6e4"
+  version "2.0.2"
+  sha256 "1c31bd66374ebe0ae92e8efac039f14d22e8066cc1bc6d0bdb827026affc5807"
 
-  url "https://github.com/omonomo/Jeroit/releases/download/v2.0.1/JeroitLG_v2.0.1.zip"
+  url "https://github.com/omonomo/Jeroit/releases/download/v2.0.2/JeroitLG_v2.0.2.zip"
   name "Jeroit SPLG"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Jeroit"
