@@ -1,3 +1,12 @@
+<table>
+	<thead>
+    	<tr>
+      		<th style="text-align:center">日本語</th>
+      		<th style="text-align:center"><a href="README_en.md">English</a></th>
+    	</tr>
+  	</thead>
+</table>
+
 # Homebrew-Tap
 
 自作の合成、改変フォントを Homebrew でインストールできるようにしました。
