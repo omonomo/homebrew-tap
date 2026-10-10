@@ -10,11 +10,18 @@ versions=(    4.0.2  2.0.2  2.0.2  2.0.2  2.0.2  2.0.2  2.0.2  2.0.2  2.0.2)
 font_sufixs=(@ BS DG EH FX HB SP)
 font_sufixs_tm=("${font_sufixs[@]}" TM)
 font_sufixs_lg=("${font_sufixs_tm[@]/%/LG}")
-description="Japanese monospaced font for coding and programming."
+description_mono="Japanese monospaced font for coding and programming."
+description_propo="Japanese proportional font for coding and programming."
 
 for i in ${!repositorys[@]}; do
   repository=${repositorys[i]}
   version=${versions[i]}
+
+  if [ ${repository} = "Awroit" ]; then
+    description="${description_propo}"
+  else
+    description="${description_mono}"
+  fi
 
   zip_names=("${repository}" "${repository}Loose")
   case ${repository} in
