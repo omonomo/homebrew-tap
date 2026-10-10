@@ -4,7 +4,7 @@ cask "font-awroit-eh" do
 
   url "https://github.com/omonomo/Awroit/releases/download/v2.0.2/Awroit_v2.0.2.zip"
   name "Awroit EH"
-  desc "Japanese monospaced font for coding and programming."
+  desc "Japanese proportional font for coding and programming."
   homepage "https://github.com/omonomo/Awroit"
 
   font "EH/AwroitEH-Regular.ttf"

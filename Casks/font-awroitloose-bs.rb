@@ -4,7 +4,7 @@ cask "font-awroitloose-bs" do
 
   url "https://github.com/omonomo/Awroit/releases/download/v2.0.2/AwroitLoose_v2.0.2.zip"
   name "AwroitLoose BS"
-  desc "Japanese monospaced font for coding and programming."
+  desc "Japanese proportional font for coding and programming."
   homepage "https://github.com/omonomo/Awroit"
 
   font "BS/AwroitLooseBS-Regular.ttf"
