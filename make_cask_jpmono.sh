@@ -11,6 +11,8 @@ font_sufixs=(         @        @     Pop  Maru      @      @        @       Pop 
 versions=(        1.0.2    1.0.2   1.0.2 1.0.2  1.0.2  1.0.2    1.0.2     1.0.2  1.0.2)
 description="Japanese monospaced font for coding and programming."
 
+cask_dir="Casks"
+mkdir -p ./${cask_dir}
 for i in ${!font_names[@]}; do
   font_name=${font_names[i]}
   font_sufix=${font_sufixs[i]}
@@ -37,7 +39,7 @@ for i in ${!font_names[@]}; do
 
   lower_font_name=$(printf '%s' "${font_name}" | tr '[:upper:]' '[:lower:]')
   lower_font_sufix=$([ -n "${font_sufix}" ] && printf -- '-%s' "${font_sufix}" | tr '[:upper:]' '[:lower:]')
-  cat > ./Casks/font-${lower_font_name}${lower_font_sufix}.rb << _EOT_
+  cat > ./${cask_dir}/font-${lower_font_name}${lower_font_sufix}.rb << _EOT_
 cask "font-${lower_font_name}${lower_font_sufix}" do
   version "${version}"
   sha256 "${sha256}"

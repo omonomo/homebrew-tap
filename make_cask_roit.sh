@@ -13,6 +13,8 @@ font_sufixs_lg=("${font_sufixs_tm[@]/%/LG}")
 description_mono="Japanese monospaced font for coding and programming."
 description_propo="Japanese proportional font for coding and programming."
 
+cask_dir="Casks"
+mkdir -p ./${cask_dir}
 for i in ${!repositorys[@]}; do
   repository=${repositorys[i]}
   version=${versions[i]}
@@ -79,7 +81,7 @@ for i in ${!repositorys[@]}; do
       echo "${font_name}${_sufix}"
       lower_font_name=$(printf '%s' "${font_name}" | tr '[:upper:]' '[:lower:]')
       lower_font_sufix=$([ -n "${font_sufix}" ] && printf -- '-%s' "${font_sufix}" | tr '[:upper:]' '[:lower:]')
-      cat > ./Casks/font-${lower_font_name}${lower_font_sufix}.rb << _EOT_
+      cat > ./${cask_dir}/font-${lower_font_name}${lower_font_sufix}.rb << _EOT_
 cask "font-${lower_font_name}${lower_font_sufix}" do
   version "${version}"
   sha256 "${sha256}"

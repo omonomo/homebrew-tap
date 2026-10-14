@@ -12,6 +12,8 @@ sub_dirs=(   CBDT COLRv0 sbix OT-SVG)
 font_variations=(@ TM KC TMKC)
 description="Twemoji converted to TrueType with the same width as em size."
 
+cask_dir="Casks"
+mkdir -p ./${cask_dir}
 zip_name="${repository}"
 echo "${zip_name}_v${version}.zip"
 
@@ -44,7 +46,7 @@ for i in ${!font_sufixs[@]}; do
     echo "${font_name}${_sufix}"
     lower_font_name=$(printf '%s' "${font_name}" | tr '[:upper:]' '[:lower:]')
     lower_font_sufix=$([ -n "${font_sufix}" ] && printf -- '-%s' "${font_sufix}" | tr '[:upper:]' '[:lower:]')
-    cat > ./Casks/font-${lower_font_name}${lower_font_sufix}.rb << _EOT_
+    cat > ./${cask_dir}/font-${lower_font_name}${lower_font_sufix}.rb << _EOT_
 cask "font-${lower_font_name}${lower_font_sufix}" do
   version "${version}"
   sha256 "${sha256}"
