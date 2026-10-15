@@ -1,6 +1,6 @@
 cask "font-ncemojitttm-sbix" do
   version "2.057"
-  sha256 "81c99290a43fe612143e9f16858b2b42f42251833b8738aeeeefcf3eb24f3ea1"
+  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
   url "https://github.com/omonomo/NCemojiTT/releases/download/v2.057/NCemojiTT_v2.057.zip"
   name "NCemojiTTTM sbix"
