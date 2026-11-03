@@ -1,8 +1,8 @@
 cask "font-meroitloose" do
-  version "2.0.2"
-  sha256 "c83091c61e06b2cd912098a42d86540612cb89c9faef3e3ef23fa233e52b590d"
+  version "3.0.0"
+  sha256 "c441ac632bb84108590d6afed8cd4a524ad22ae071f40fc7a1242dd367cf9614"
 
-  url "https://github.com/omonomo/Meroit/releases/download/v2.0.2/MeroitLoose_v2.0.2.zip"
+  url "https://github.com/omonomo/Meroit/releases/download/v3.0.0/MeroitLoose_v3.0.0.zip"
   name "MeroitLoose"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Meroit"

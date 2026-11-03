@@ -1,8 +1,8 @@
 cask "font-awroitloose-eh" do
-  version "2.0.2"
-  sha256 "95b2b1cb506663ce4f504baa2f9c9c15890a2db52d7bfa77fc68e16eef72d833"
+  version "3.0.0"
+  sha256 "1a4eb3b37cc72fc412f208ed9a96569fbe80aa9f027874f32361f490e194c27f"
 
-  url "https://github.com/omonomo/Awroit/releases/download/v2.0.2/AwroitLoose_v2.0.2.zip"
+  url "https://github.com/omonomo/Awroit/releases/download/v3.0.0/AwroitLoose_v3.0.0.zip"
   name "AwroitLoose EH"
   desc "Japanese proportional font for coding and programming."
   homepage "https://github.com/omonomo/Awroit"

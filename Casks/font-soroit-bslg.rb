@@ -1,8 +1,8 @@
 cask "font-soroit-bslg" do
-  version "2.0.2"
-  sha256 "1a312b3071d7fc0a14bfb1f3c7efb69fd877b2f495e7d3507364f322eca044fa"
+  version "3.0.0"
+  sha256 "57ead74897a06c96fdb20329666598821c681f2920f2477167172fe0192b5040"
 
-  url "https://github.com/omonomo/Soroit/releases/download/v2.0.2/SoroitLG_v2.0.2.zip"
+  url "https://github.com/omonomo/Soroit/releases/download/v3.0.0/SoroitLG_v3.0.0.zip"
   name "Soroit BSLG"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Soroit"

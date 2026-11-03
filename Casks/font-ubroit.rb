@@ -1,8 +1,8 @@
 cask "font-ubroit" do
-  version "2.0.2"
-  sha256 "cfd5933c50fd82204af1f0b79388731d73ae65abbee2a8afe126cb1e81e8a3af"
+  version "3.0.0"
+  sha256 "a4c8dfbf4633b50c08ac87ebef3224127fb0b3731cdc7c249d553a4c68732b5c"
 
-  url "https://github.com/omonomo/Ubroit/releases/download/v2.0.2/Ubroit_v2.0.2.zip"
+  url "https://github.com/omonomo/Ubroit/releases/download/v3.0.0/Ubroit_v3.0.0.zip"
   name "Ubroit"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Ubroit"

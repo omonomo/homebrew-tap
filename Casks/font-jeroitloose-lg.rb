@@ -1,8 +1,8 @@
 cask "font-jeroitloose-lg" do
-  version "2.0.2"
-  sha256 "fdc2ce2e5c31e1ba84038d57be5860c6b7798de4ac4fb64479c64e17445045cf"
+  version "3.0.0"
+  sha256 "f96a9ef39d2f82de857a5f9cc56b3e40e15d4a30083f09b84b27097a1d428950"
 
-  url "https://github.com/omonomo/Jeroit/releases/download/v2.0.2/JeroitLooseLG_v2.0.2.zip"
+  url "https://github.com/omonomo/Jeroit/releases/download/v3.0.0/JeroitLooseLG_v3.0.0.zip"
   name "JeroitLoose LG"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Jeroit"

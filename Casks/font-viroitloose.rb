@@ -1,8 +1,8 @@
 cask "font-viroitloose" do
-  version "2.0.2"
-  sha256 "547cd20b446103a05ea511c1dbdd7975f6f4f7100bbfef65533eebd5dcd7648d"
+  version "3.0.0"
+  sha256 "30cd5ad8da927736407786b4d587b68ea89cb28ff531339e439a81f3ce483120"
 
-  url "https://github.com/omonomo/Viroit/releases/download/v2.0.2/ViroitLoose_v2.0.2.zip"
+  url "https://github.com/omonomo/Viroit/releases/download/v3.0.0/ViroitLoose_v3.0.0.zip"
   name "ViroitLoose"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Viroit"

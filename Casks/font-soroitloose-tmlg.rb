@@ -1,8 +1,8 @@
 cask "font-soroitloose-tmlg" do
-  version "2.0.2"
-  sha256 "b351b4b838bb62f09b2886baa7e7eb6ab29971e67c0be3c8b221df51061bdc0a"
+  version "3.0.0"
+  sha256 "8411315bc524eada72e01f4b5b8df6f6f267bb88e1768701b2561421c500737c"
 
-  url "https://github.com/omonomo/Soroit/releases/download/v2.0.2/SoroitLooseLG_v2.0.2.zip"
+  url "https://github.com/omonomo/Soroit/releases/download/v3.0.0/SoroitLooseLG_v3.0.0.zip"
   name "SoroitLoose TMLG"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Soroit"

@@ -1,8 +1,8 @@
 cask "font-roroit-dg" do
-  version "2.0.2"
-  sha256 "e0c1cd5c5f8017a98311835956f59ca1e16abc748244f0e288c211afa9e60a72"
+  version "3.0.0"
+  sha256 "5a50d4bdaac70587caa41cbd755324a479fb4d88c8627106be7a100a46655c8a"
 
-  url "https://github.com/omonomo/Roroit/releases/download/v2.0.2/Roroit_v2.0.2.zip"
+  url "https://github.com/omonomo/Roroit/releases/download/v3.0.0/Roroit_v3.0.0.zip"
   name "Roroit DG"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Roroit"

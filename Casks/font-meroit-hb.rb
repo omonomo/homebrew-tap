@@ -1,8 +1,8 @@
 cask "font-meroit-hb" do
-  version "2.0.2"
-  sha256 "00de47ba1f8efd2cdefde45f63d4cc369d338c3c485a5d1060d736af75894d53"
+  version "3.0.0"
+  sha256 "436992fffc4ae2ed3a8e277918d4220927da13956392980695b65620e93df2af"
 
-  url "https://github.com/omonomo/Meroit/releases/download/v2.0.2/Meroit_v2.0.2.zip"
+  url "https://github.com/omonomo/Meroit/releases/download/v3.0.0/Meroit_v3.0.0.zip"
   name "Meroit HB"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Meroit"

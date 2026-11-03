@@ -1,8 +1,8 @@
 cask "font-jeroitloose-sp" do
-  version "2.0.2"
-  sha256 "f94d9ab0277c1079a25d28d209e98138fcb5d6708f9071a197646101ee1c09c5"
+  version "3.0.0"
+  sha256 "68f8d7ee9947d833f32c9b0d092800b70aed203dd0229520dcef8d4417dfd935"
 
-  url "https://github.com/omonomo/Jeroit/releases/download/v2.0.2/JeroitLoose_v2.0.2.zip"
+  url "https://github.com/omonomo/Jeroit/releases/download/v3.0.0/JeroitLoose_v3.0.0.zip"
   name "JeroitLoose SP"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Jeroit"

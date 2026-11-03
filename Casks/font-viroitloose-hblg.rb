@@ -1,8 +1,8 @@
 cask "font-viroitloose-hblg" do
-  version "2.0.2"
-  sha256 "d6e695b41a978db7f68090c81aeabf071db58e943b677249831f95f9043629dd"
+  version "3.0.0"
+  sha256 "b8c128c1552f3e7930b4b799829dec382a536bb70450b038c6c32ff660792961"
 
-  url "https://github.com/omonomo/Viroit/releases/download/v2.0.2/ViroitLooseLG_v2.0.2.zip"
+  url "https://github.com/omonomo/Viroit/releases/download/v3.0.0/ViroitLooseLG_v3.0.0.zip"
   name "ViroitLoose HBLG"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Viroit"

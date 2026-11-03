@@ -1,8 +1,8 @@
 cask "font-idroit-splg" do
-  version "2.0.2"
-  sha256 "156454e4b839584b7ca2e7f015c531caa5d34c03e538907078735908aeae05fa"
+  version "3.0.0"
+  sha256 "265fef0eb28dd35addd55d25d3191b7914ee50756dd2b4531b274c64dceb8879"
 
-  url "https://github.com/omonomo/Idroit/releases/download/v2.0.2/IdroitLG_v2.0.2.zip"
+  url "https://github.com/omonomo/Idroit/releases/download/v3.0.0/IdroitLG_v3.0.0.zip"
   name "Idroit SPLG"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Idroit"

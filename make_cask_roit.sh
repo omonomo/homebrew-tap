@@ -6,7 +6,7 @@
 
 user="omonomo"
 repositorys=(Cyroit Idroit Jeroit Meroit Roroit Soroit Ubroit Viroit Awroit)
-versions=(    4.0.2  2.0.2  2.0.2  2.0.2  2.0.2  2.0.2  2.0.2  2.0.2  2.0.2)
+versions=(    5.0.0  3.0.0  3.0.0  3.0.0  3.0.0  3.0.0  3.0.0  3.0.0  3.0.0)
 font_sufixs=(@ BS DG EH FX HB SP)
 font_sufixs_tm=("${font_sufixs[@]}" TM)
 font_sufixs_lg=("${font_sufixs_tm[@]/%/LG}")

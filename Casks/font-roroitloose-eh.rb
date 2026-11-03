@@ -1,8 +1,8 @@
 cask "font-roroitloose-eh" do
-  version "2.0.2"
-  sha256 "ffb52ffd3f01c9c86966ad7c571b6b960bfdb8253e4050f2dac6934482443396"
+  version "3.0.0"
+  sha256 "e66cd97998aa6076c0fd9a353032a111225fcbbd0c472bd695e8e7ac269c0b1d"
 
-  url "https://github.com/omonomo/Roroit/releases/download/v2.0.2/RoroitLoose_v2.0.2.zip"
+  url "https://github.com/omonomo/Roroit/releases/download/v3.0.0/RoroitLoose_v3.0.0.zip"
   name "RoroitLoose EH"
   desc "Japanese monospaced font for coding and programming."
   homepage "https://github.com/omonomo/Roroit"

@@ -1,8 +1,8 @@
 cask "font-awroit-eh" do
-  version "2.0.2"
-  sha256 "2b2da2fcd63de28dc6d845d12edbfcbef731f38ff08cf8e3f3a879aac4a68cae"
+  version "3.0.0"
+  sha256 "75d922b9871c689db7dcf741fcfe5a4a8d9a4440441e2659c59d0da326dc38c0"
 
-  url "https://github.com/omonomo/Awroit/releases/download/v2.0.2/Awroit_v2.0.2.zip"
+  url "https://github.com/omonomo/Awroit/releases/download/v3.0.0/Awroit_v3.0.0.zip"
   name "Awroit EH"
   desc "Japanese proportional font for coding and programming."
   homepage "https://github.com/omonomo/Awroit"
