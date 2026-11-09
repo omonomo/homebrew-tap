@@ -51,7 +51,7 @@ Please check the `Casks` directory for available fonts
 
 - [Awroit](https://omonomo.github.io/Awroit/): iA Writer Quattro + IBM Plex Mono + Cyroit
 
-### Japanese monospaced fonts customized for development use
+### Japanese fonts customized for development use
 
 - [Japanese Font Development Project](https://github.com/omonomo/JPMonoFonts)
 
